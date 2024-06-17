@@ -5,6 +5,7 @@ This case study aims to analyze the latest data on Airbnb listings in New York C
 The dataset:  [Kaggle](https://www.kaggle.com/datasets/vrindakallu/new-york-dataset)   
 🔍 SQL queries? Check them out here: [project_sql folder](project_sql)   
 
+
 <br>
 ## The questions I wanted to answer through my SQL queries were:
 1 - Which borough has the highest number of listings, and which borough has the lowest number of listings?
@@ -18,6 +19,7 @@ The dataset:  [Kaggle](https://www.kaggle.com/datasets/vrindakallu/new-york-data
  5- Which borough has the highest average rating, and within each borough?
 
 
+<br>
 # Tools I Used
 
 - **SQL**: For analysis and queries to gain insight about the dataset
