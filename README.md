@@ -18,7 +18,6 @@ The dataset:  [Kaggle](https://www.kaggle.com/datasets/vrindakallu/new-york-data
  5- Which borough has the highest average rating, and within each borough?
 
 <br>
-<br>
 
 # Tools I Used
 
@@ -27,7 +26,6 @@ The dataset:  [Kaggle](https://www.kaggle.com/datasets/vrindakallu/new-york-data
 - **Visual Studio Code**: Used for executing SQL queries.
 - **Git & GitHub**: Essential for version control and sharing my SQL scripts and analysis, ensuring collaboration and project tracking.
 
-<br>
 <br>
 
 # Analysis
@@ -191,7 +189,6 @@ GROUP BY borough;
 
 Staten Island emerges as the borough with the highest average rating, standing at 4.25. This high rating could reflect a more personalized and satisfactory experience provided by the hosts, possibly due to fewer listings and a more community-focused approach. Queens follows closely with an average rating of 4.05, indicating a generally positive experience for guests. The Bronx has an average rating of 4.03, suggesting a good level of satisfaction among guests. Brooklyn's average rating is slightly lower at 4.02, which, while still positive, could reflect the variability in guest experiences across its diverse neighborhoods. Manhattan, despite being the most popular and expensive borough, has the lowest average rating of 3.64, possibly due to the higher expectations and volume of tourists leading to more critical reviews. These insights highlight the varying levels of guest satisfaction across New York City's boroughs, with Staten Island standing out for its exceptional ratings.
 
-<br>
 <br>
 
 # Conclusion
