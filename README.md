@@ -5,8 +5,6 @@ The dataset:  [Kaggle](https://www.kaggle.com/datasets/vrindakallu/new-york-data
 🔍 SQL queries? Check them out here: [project_sql folder](project_sql)   
 
 
-
-
 ## The questions I wanted to answer through my SQL queries were:
 1 - Which borough has the highest number of listings, and which borough has the lowest number of listings?
 
@@ -19,9 +17,6 @@ The dataset:  [Kaggle](https://www.kaggle.com/datasets/vrindakallu/new-york-data
  5- Which borough has the highest average rating, and within each borough?
 
 
-
-
-
 # Tools I Used
 
 - **SQL**: For analysis and queries to gain insight about the dataset
@@ -31,14 +26,18 @@ The dataset:  [Kaggle](https://www.kaggle.com/datasets/vrindakallu/new-york-data
 
 
 
-
-
-
-
 # Analysis
 1) ### Which borough has the highest number of listings, and which borough has the lowest number of listings?
+```sql
+SELECT 
+    borough, COUNT(id) AS num_listings 
+FROM 
+    airbnb_nyc
+ORDER BY num_listings
+GROUP BY borough;
+```
 
-| Borough        | Number of Listings |
+| Borough        | Number of Listings |                     
 |----------------|--------------------|
 | Manhattan      | 8,038              |
 | Brooklyn       | 7,719              |
@@ -53,6 +52,15 @@ Based on the analysis of the Airbnb listings dataset, it is evident that Manhatt
 
 
 2) ### What is the average price per night within each borough.
+```sql
+SELECT 
+    borough, 
+    ROUND(AVG(price), 2) AS avg_price
+FROM 
+    airbnb_nyc
+GROUP BY borough
+ORDER BY avg_price DESC;
+```
 | Borough        | Average Price per Night |
 |----------------|--------------------------|
 | Manhattan      | 227.85                   |
@@ -69,7 +77,15 @@ The analysis of average nightly prices for Airbnb listings in New York City reve
 
 
 3) ### What is the highest and lowest avg price per night for each room type?
-
+```sql
+SELECT 
+    room_type, 
+    ROUND(AVG(PRICE), 2) AS avg_price
+FROM 
+    airbnb_nyc
+GROUP BY room_type
+ORDER BY avg_price DESC
+```
 | Room Type        | Average Price per Night |
 |------------------|-------------------------|
 | Hotel room       | 415.05                  |
@@ -82,11 +98,19 @@ Analyzing the average nightly prices for each room type in the New York City Air
 
 
 
-
-
 4) ### What is the most popular bedroom type accross each borough.
-
-MANHATHAN
+```sql
+SELECT
+    room_type, 
+    COUNT(id) AS num_rooms, 
+    ROUND(AVG(price), 2) AS avg_price
+FROM 
+    airbnb_nyc
+WHERE borough = 'Manhattan' --Filter by borough
+GROUP BY room_type
+ORDER BY num_rooms DESC; 
+```
+### MANHATHAN
 | Room Type        | Number of Rooms | Average Price per Night |
 |------------------|-----------------|-------------------------|
 | Entire home/apt  | 5288            | 253.75                  |
@@ -97,8 +121,8 @@ MANHATHAN
 
 
 
-
-BRONX
+** **
+### BRONX 
 | Room Type        | Number of Rooms | Average Price per Night |
 |------------------|-----------------|-------------------------|
 | Private room     | 544             | 97.30                   |
@@ -108,9 +132,9 @@ BRONX
 
 
 
+** **
 
-
-BROOKYLN
+### BROOKYLN
 | Room Type        | Number of Rooms | Average Price per Night |
 |------------------|-----------------|-------------------------|
 | Entire home/apt  | 4129            | 210.74                  |
@@ -120,10 +144,8 @@ BROOKYLN
 
 
 
-
-
-
-QUEENS
+** **
+## QUEENS
 | Room Type        | Number of Rooms | Average Price per Night |
 |------------------|-----------------|-------------------------|
 | Private room     | 2093            | 87.38                   |
@@ -131,8 +153,9 @@ QUEENS
 | Shared room      | 75              | 84.05                   |
 | Hotel room       | 7               | 165.71                  |
 
+** **
+### STATEN ISLAND
 
-STATEN ISLAND
 | Room Type        | Number of Rooms | Average Price per Night |
 |------------------|-----------------|-------------------------|
 | Entire home/apt  | 156             | 139.85                  |

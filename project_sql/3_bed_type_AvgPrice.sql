@@ -2,7 +2,7 @@
 
 SELECT 
     room_type, 
-        ROUND(AVG(PRICE), 2) AS avg_price
+    ROUND(AVG(PRICE), 2) AS avg_price
 FROM 
     airbnb_nyc
 GROUP BY room_type
