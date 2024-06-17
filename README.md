@@ -26,7 +26,7 @@ The dataset:  [Kaggle](https://www.kaggle.com/datasets/vrindakallu/new-york-data
 
 
 
-.
+
 # Analysis
 1) ### Which borough has the highest number of listings, and which borough has the lowest number of listings?
 
@@ -40,9 +40,9 @@ The dataset:  [Kaggle](https://www.kaggle.com/datasets/vrindakallu/new-york-data
 
 Based on the analysis of the Airbnb listings dataset, it is evident that Manhattan and Brooklyn are the most popular boroughs for Airbnb accommodations in New York City. Manhattan leads with the highest number of listings, totaling 8,038, closely followed by Brooklyn with 7,719 listings. On the other hand, Staten Island has the fewest listings, with only 291, reflecting its lower demand among visitors compared to other boroughs. 
 
-.
-** **
-2) ### What is the average price per night within each borough.
+
+
+2) ### What is the average price per night within each borough?
 | Borough        | Average Price per Night |
 |----------------|--------------------------|
 | Manhattan      | 227.85                   |
@@ -55,8 +55,8 @@ Based on the analysis of the Airbnb listings dataset, it is evident that Manhatt
 
 The analysis of average nightly prices for Airbnb listings in New York City reveals distinct price variations across boroughs. Manhattan, with an average price of $227.85 per night, is the most expensive borough. Brooklyn follows with an average nightly rate of $187.03, indicative of its trendy neighborhoods and growing popularity. Queens offers a more budget-friendly option at $126.49 per night, appealing to those seeking diverse cultural experiences without the high costs of Manhattan or Brooklyn. Staten Island and the Bronx are the most affordable, with average prices of $118.78 and $118.41 per night, respectively
 
-.
-** **
+
+
 3) ### What is the highest and lowest avg price per night for each room type?
 
 | Room Type        | Average Price per Night |
