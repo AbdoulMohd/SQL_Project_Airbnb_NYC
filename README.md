@@ -5,6 +5,9 @@ The dataset:  [Kaggle](https://www.kaggle.com/datasets/vrindakallu/new-york-data
 🔍 SQL queries? Check them out here: [project_sql folder](project_sql)   
 
 
+
+<br>
+
 ## The questions I wanted to answer through my SQL queries were:
 1 - Which borough has the highest number of listings, and which borough has the lowest number of listings?
 
@@ -19,7 +22,8 @@ The dataset:  [Kaggle](https://www.kaggle.com/datasets/vrindakallu/new-york-data
 
 
 
-.
+<br>
+
 # Tools I Used
 
 - **SQL**: For analysis and queries to gain insight about the dataset
@@ -29,7 +33,10 @@ The dataset:  [Kaggle](https://www.kaggle.com/datasets/vrindakallu/new-york-data
 
 
 
-.
+
+<br>
+
+
 # Analysis
 1) ### Which borough has the highest number of listings, and which borough has the lowest number of listings?
 
@@ -41,10 +48,12 @@ The dataset:  [Kaggle](https://www.kaggle.com/datasets/vrindakallu/new-york-data
 | Bronx          | 949                |
 | Staten Island  | 291                |
 
+<br>
 Based on the analysis of the Airbnb listings dataset, it is evident that Manhattan and Brooklyn are the most popular boroughs for Airbnb accommodations in New York City. Manhattan leads with the highest number of listings, totaling 8,038, closely followed by Brooklyn with 7,719 listings. On the other hand, Staten Island has the fewest listings, with only 291, reflecting its lower demand among visitors compared to other boroughs. 
 
-.
-** **
+<br>
+
+
 2) ### What is the average price per night within each borough.
 | Borough        | Average Price per Night |
 |----------------|--------------------------|
@@ -58,8 +67,9 @@ Based on the analysis of the Airbnb listings dataset, it is evident that Manhatt
 
 The analysis of average nightly prices for Airbnb listings in New York City reveals distinct price variations across boroughs. Manhattan, with an average price of $227.85 per night, is the most expensive borough. Brooklyn follows with an average nightly rate of $187.03, indicative of its trendy neighborhoods and growing popularity. Queens offers a more budget-friendly option at $126.49 per night, appealing to those seeking diverse cultural experiences without the high costs of Manhattan or Brooklyn. Staten Island and the Bronx are the most affordable, with average prices of $118.78 and $118.41 per night, respectively
 
-.
-** **
+<br>
+
+
 3) ### What is the highest and lowest avg price per night for each room type?
 
 | Room Type        | Average Price per Night |
@@ -73,6 +83,9 @@ The analysis of average nightly prices for Airbnb listings in New York City reve
 Analyzing the average nightly prices for each room type in the New York City Airbnb market reveals notable variations based on accommodation type. Hotel rooms command the highest average price at $415.05 per night, reflecting the premium associated with full-service accommodations typically found in hotels. Entire homes and apartments follow closely at $223.16, indicating the popularity of private accommodations offering guests exclusivity and comfort akin to their own homes. Shared rooms, at an average of $156.29 per night, provide a more economical option for travelers seeking affordability and a communal living experience. Private rooms fall in between at $139.52 per night, offering a balance between privacy and cost-effectiveness. 
 
 
+<br>
+
+
 4) ### What is the most popular bedroom type accross each borough.
 
 MANHATHAN
@@ -84,12 +97,19 @@ MANHATHAN
 | Shared room      | 77              | 319.56                  |
 
 
+
+<br>
+
 BRONX
 | Room Type        | Number of Rooms | Average Price per Night |
 |------------------|-----------------|-------------------------|
 | Private room     | 544             | 97.30                   |
 | Entire home/apt  | 390             | 149.04                  |
 | Shared room      | 15              | 87.33                   |
+
+
+<br>
+
 
 
 BROOKYLN
@@ -99,6 +119,10 @@ BROOKYLN
 | Private room     | 3464            | 161.66                  |
 | Shared room      | 122             | 105.96                  |
 | Hotel room       | 4               | 162.75                  |
+
+
+
+<br>
 
 
 QUEENS
