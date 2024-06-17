@@ -17,9 +17,6 @@ The dataset:  [Kaggle](https://www.kaggle.com/datasets/vrindakallu/new-york-data
  5- Which borough has the highest average rating, and within each borough?
 
 
-
-
-.
 # Tools I Used
 
 - **SQL**: For analysis and queries to gain insight about the dataset
