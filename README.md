@@ -167,7 +167,18 @@ The analysis of room type popularity across the different boroughs of New York C
 
 
 5) ### Which borough has the highest average rating, and within each borough, which neighborhood has the highest and lowest average ratings?
-
+```sql
+SELECT borough, ROUND(
+    AVG(
+        CASE
+            WHEN REGEXP_REPLACE(rating, '[^0-9\.]', '', 'g') ~ '^[0-9]+(\.[0-9]+)?$' THEN CAST(REGEXP_REPLACE(rating, '[^0-9\.]', '', 'g') AS DECIMAL)
+            ELSE 0
+        END
+    ), 2
+) AS average_rating
+FROM airbnb_nyc
+GROUP BY borough;
+```
 | Borough        | Average Rating |
 |----------------|----------------|
 | Staten Island  | 4.25           |
