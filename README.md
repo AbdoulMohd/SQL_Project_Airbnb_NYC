@@ -171,7 +171,9 @@ The analysis of room type popularity across the different boroughs of New York C
 SELECT borough, ROUND(
     AVG(
         CASE
-            WHEN REGEXP_REPLACE(rating, '[^0-9\.]', '', 'g') ~ '^[0-9]+(\.[0-9]+)?$' THEN CAST(REGEXP_REPLACE(rating, '[^0-9\.]', '', 'g') AS DECIMAL)
+            WHEN REGEXP_REPLACE(rating, '[^0-9\.]', '', 'g') ~ '^[0-9]+(\.[0-9]+)?
+            
+            $' THEN CAST(REGEXP_REPLACE(rating, '[^0-9\.]', '', 'g') AS DECIMAL)
             ELSE 0
         END
     ), 2
