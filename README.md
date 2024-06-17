@@ -109,7 +109,7 @@ WHERE borough = 'Manhattan' --Filter by borough
 GROUP BY room_type
 ORDER BY num_rooms DESC; 
 ```
-### MANHATHAN
+**MANHATHAN**
 | Room Type        | Number of Rooms | Average Price per Night |
 |------------------|-----------------|-------------------------|
 | Entire home/apt  | 5288            | 253.75                  |
@@ -119,7 +119,7 @@ ORDER BY num_rooms DESC;
 
 <br>
 
-### BRONX 
+**BRONX**
 | Room Type        | Number of Rooms | Average Price per Night |
 |------------------|-----------------|-------------------------|
 | Private room     | 544             | 97.30                   |
@@ -128,7 +128,7 @@ ORDER BY num_rooms DESC;
 
 <br>
 
-### BROOKYLN
+**BROOKYLN**
 | Room Type        | Number of Rooms | Average Price per Night |
 |------------------|-----------------|-------------------------|
 | Entire home/apt  | 4129            | 210.74                  |
@@ -138,7 +138,7 @@ ORDER BY num_rooms DESC;
 
 <br>
 
-## QUEENS
+**QUEENS**
 | Room Type        | Number of Rooms | Average Price per Night |
 |------------------|-----------------|-------------------------|
 | Private room     | 2093            | 87.38                   |
@@ -148,7 +148,7 @@ ORDER BY num_rooms DESC;
 
 <br>
 
-### STATEN ISLAND
+**STATEN ISLAND**
 
 | Room Type        | Number of Rooms | Average Price per Night |
 |------------------|-----------------|-------------------------|
