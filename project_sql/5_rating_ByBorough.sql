@@ -13,6 +13,7 @@ FROM airbnb_nyc
 GROUP BY borough;
 
 
+
 /*
 | Borough        | Average Rating |
 |----------------|----------------|
