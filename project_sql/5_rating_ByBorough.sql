@@ -14,7 +14,7 @@ GROUP BY borough;
 
 
 
-/*
+/* 
 | Borough        | Average Rating |
 |----------------|----------------|
 | Staten Island  | 4.25           |

@@ -12,7 +12,7 @@ WHERE borough = 'Manhattan'
 GROUP BY room_type
 ORDER BY num_rooms DESC; 
 
-/*
+/* 
 | Room Type        | Number of Rooms | Average Price per Night |
 |------------------|-----------------|-------------------------|
 | Entire home/apt  | 5288            | 253.75                  |

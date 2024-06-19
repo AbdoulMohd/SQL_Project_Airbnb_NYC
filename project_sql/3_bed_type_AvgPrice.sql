@@ -15,4 +15,4 @@ ORDER BY avg_price DESC
 | Entire home/apt  | 223.16                  |
 | Shared room      | 156.29                  |
 | Private room     | 139.52                  | 
-*/
+*/ 

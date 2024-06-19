@@ -15,4 +15,4 @@ ORDER BY avg_price DESC;
 | Queens         | 126.49                   |
 | Staten Island  | 118.78                   |
 | Bronx          | 118.41                   |
-*/
+*/ 
