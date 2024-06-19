@@ -133,6 +133,7 @@ ORDER BY num_rooms DESC;
 ![AVG Price Per Night](https://github.com/AbdoulMohd/SQL_Project_Airbnb_NYC/blob/main/Visualization/4.1_Visual.png)
 
 <br>
+
 **BRONX**
 | Room Type        | Number of Rooms | Average Price per Night |
 |------------------|-----------------|-------------------------|
@@ -144,6 +145,7 @@ ORDER BY num_rooms DESC;
 ![AVG Price Per Night](https://github.com/AbdoulMohd/SQL_Project_Airbnb_NYC/blob/main/Visualization/4.2_Visual.png)
 
 <br>
+
 **BROOKYLN**
 | Room Type        | Number of Rooms | Average Price per Night |
 |------------------|-----------------|-------------------------|
@@ -156,6 +158,7 @@ ORDER BY num_rooms DESC;
 ![AVG Price Per Night](https://github.com/AbdoulMohd/SQL_Project_Airbnb_NYC/blob/main/Visualization/4.3_Visual.png)
 
 <br>
+
 **QUEENS**
 | Room Type        | Number of Rooms | Average Price per Night |
 |------------------|-----------------|-------------------------|
@@ -168,6 +171,7 @@ ORDER BY num_rooms DESC;
 ![AVG Price Per Night](https://github.com/AbdoulMohd/SQL_Project_Airbnb_NYC/blob/main/Visualization/4.4_Visual.png)
 
 <br>
+
 **STATEN ISLAND**
 
 | Room Type        | Number of Rooms | Average Price per Night |
