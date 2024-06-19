@@ -48,6 +48,9 @@ ORDER BY num_listings;
 | Staten Island  | 291                |
 
 <br>
+![NA.](https://github.com/AbdoulMohd/SQL_Project_Airbnb_NYC/blob/main/Visualization/1_Visual.png?raw=true)
+
+<br>
 Based on the analysis of the Airbnb listings dataset, it is evident that Manhattan and Brooklyn are the most popular boroughs for Airbnb accommodations in New York City. Manhattan leads with the highest number of listings, totaling 8,038, closely followed by Brooklyn with 7,719 listings. On the other hand, Staten Island has the fewest listings, with only 291, reflecting its lower demand among visitors compared to other boroughs. 
 
 <br>
