@@ -26,4 +26,4 @@ CREATE TABLE airbnb_nyc (
 ALTER TABLE airbnb_nyc ALTER COLUMN host_id TYPE bigint;
 ALTER TABLE airbnb_nyc ALTER COLUMN rating TYPE VARCHAR(20);
 ALTER TABLE airbnb_nyc
-RENAME COLUMN neighbourhood_group TO borough;
+RENAME COLUMN neighbourhood_group TO borough; 
