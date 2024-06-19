@@ -35,8 +35,8 @@ SELECT
     borough, COUNT(id) AS num_listings 
 FROM 
     airbnb_nyc
-ORDER BY num_listings
-GROUP BY borough;
+GROUP BY borough
+ORDER BY num_listings;
 ```
 
 | Borough        | Number of Listings |                     
